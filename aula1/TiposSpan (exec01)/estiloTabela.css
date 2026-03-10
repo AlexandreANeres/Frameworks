@@ -1,0 +1,26 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+table {
+    --cor-borda: black;
+    --tipo-borda: solid;
+    --tamanho-borda: 1px;
+}
+
+td {
+    border-radius: 5px;
+    border: var(--tamanho-borda) var(--cor-borda) var(--tipo-borda); /*Var declara que o valor puxado é variável intencional*/
+    width: 100px;
+    height: 100px;
+    text-align: center;
+}
+
+dados {
+    display: none;
+}
+
+

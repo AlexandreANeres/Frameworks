@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela 5x5</title>
+    <link rel="stylesheet" href="estiloTabela.css">
+</head>
+
+<body>
+    <tabela linha="6" coluna="3" borda="1px dotted purple"></tabela>
+        <expand linha="0" coluna="0" tamanho="3" tipo="linha"></expand> <!--TAREFA DE CASA 1 (1 semana): tipo--> <!--TAREFA DE CASA 2 (2 semanas): fazer as validações (tentar colocar um 6x6 em uma matriz 10x10 tem que dar erro)-->
+        <expand linha="1" coluna="1" tamanho="3" tipo="coluna"></expand>
+        <expand linha="1" coluna="2" tamanho="2" tipo="coluna"></expand>
+
+        <dados> <!--Chamamos de pseudoTAG as tags criadas artificialmente-->
+            Alunos 3° TDS
+            Nome | Idade | Curso
+            Murilo | 16 | TDS
+            Theo | 16 | TDS
+            Amanda | 17 | TDS
+            Micael | 18 | TDS
+        </dados>
+        
+    <!-- Os dados tem que estar separados por espaço, e nenhum espaço desnecessário deve existir. -->
+
+    <!--RowSpan = Preenche uma linha a mais-->
+    <!--ColSpan = Preenche uma coluna a mais-->
+</body>
+
+</html>
+<script src="fwkTabela_v2.js"></script>
